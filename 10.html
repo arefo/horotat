@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>شهدای خیابان فلسطین</title>
+<link href="jquery-mobile/jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.5.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+<!-- This reference to phonegap.js will allow for code hints as long as the current site has been configured as a mobile application. 
+	 To configure the site as a mobile application, go to Site -> Mobile Applications -> Configure Application Framework... -->
+<script src="/phonegap.js" type="text/javascript"></script>
+
+<style type="text/css">
+.pink{
+	
+color:#993366 ;	
+}
+@font-face {
+	font-family: 'koodak';
+	src: url('BKoodak.eot') format('eot'), /* IE6�8 */ 
+		 url('BKoodak.woff') format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/ 
+		 url('BKoodak.ttf') format('truetype');
+	/* Saf3�5, Chrome4+, FF3.5, Opera 10+ */
+}
+  
+    
+    #custom-li .ui-li .ui-btn-text .ui-link-inherit .ui-li-thumb {
+        position:absolute;
+        top:0;
+        bottom:0;
+        margin:auto;
+        right: 0;
+        margin-right: 0 !important;
+    } 
+
+    #custom-li .ui-li .ui-icon {
+        left: 10px !important;    
+    }
+
+    #custom-li .ui-li .ui-btn-text .ui-link-inherit .left {
+        float: right;
+       
+    }
+
+    #custom-li .ui-li .ui-btn-text .ui-link-inherit .left p{
+        text-align: right;
+    }
+        
+    #custom-li .ui-li .ui-btn-text .ui-link-inherit .right {
+        float: right;
+        margin-right: 20px;
+        display:block; 
+        -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+        -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform:matrix(-1, 0, 0, 1, 0, 0);        
+    }
+
+
+    #left-split-icon {
+        left: 0 !important;   
+        border-width: 0 1px 0 0 !important;
+    }
+
+    .ui-li-link-alt { right: auto !important; } // Fix for jQM 1.3
+	
+/*	.ui-page { 
+background: #eee;
+}*/
+
+</style>
+
+
+</head> 
+<body> 
+
+
+<div data-role="page" id="page1">
+
+<div data-role="header"  class="ui-bar-b">
+		<h1 style="direction:rtl;font:14px koodak;font-weight:bold;">بیوگرافی شهید</h1>
+		  <a href="shohada.html" style="margin-left:1px;margin-right:1px;" data-role="button" data-icon="back"  data-theme="b" data-iconshadow="false" data-inline="true" data-iconpos="notext" rel="external" >تنظیمات</a>
+	</div><div data-role="content" class="ui-bar-b">	
+	
+    <div style="width:100%">
+    <div style="margin:5px auto;text-align:center; width:90px;">
+   <img src="aks3dar4/10.JPG" width="90" height="126" />
+   </div>
+   
+   <br /> <div style="margin-top:5px;width:100%;font:11pt koodak;font-weight:100;  margin-right:5px; text-align:right">
+   
+
+ نام : ناصر   <br />
+نام خانوادگی : آزرده افراپلی   <br />
+نام پدر :ابوالحسن   <br />
+محل ولادت : افراپل    <br />
+تاریخ ولادت : 1/1/1345   <br />
+تحصیلات : اول دبیرستان   <br />
+محل شهادت : مریوان   <br />
+تاریخ شهادت : 1/9/1361   <br />
+محل خاکسپاری : حسینیه افراپل
+
+
+   
+   </div>
+   <hr />
+   <div style="width:99%;text-align:right; margin-right:0.5%;font:11pt koodak;">
+   <h4>وصیت نامه شهید</h4>
+   <br />
+بسم رب الشهدا
+   <br />
+وصیتنامه شهید ناصر آزرده :
+
+سلام و درود فراوان به شما پدر و مادر فرزند از دست داده باد.درود خدا بر شماای که توانستید فرزندی را تا این اندازه بزرگ کرده و در راه خدا هدیه کنید.پدرم! مادرم! از شما متشکرم که مرا تا این اندازه بزرگ کرده اید و درسی از اسلام به من آموخته اید که توانستم در راه رضای خدا گامی بردارم و بر علیه دشمنان اسلام بجنگم. پیام من به ملت ایران و به خصوص مردم متعهد و مسلمان افراپل این است که هرگز امام را تنها نگذارید و به ندای او لبیک گوئید.
+پیام من به برادرم اکبر، و خواهرم این است که شما باید پسرهایتان را همچون حسین (ع) و دخترهایتان را همچون زینب (س) تربیت کنید تا بتوانند خدمت خوبی به جامعه اسلامی بکنند. پیام من به شما برادران و خواهرانم این است که پس از مرگم گریه و زاری نکنید زیرا که با گریه کردن شما دشمن خوشحال و کارش رو به افزایش می رود؛ دیگر این فکر را نمی کند که شهید نمرده بلکه زنده است و در نزد خدای منان روزی می خورد و نیز دروازه های جهنم به روی خودش (دشمن) باز شده است.
+مادرم! تنها آرزوئی که در دوره جوانی داشتم ، همین بود: شهادت. همیشه آرزو داشتم شهید شوم و جایی بروم که رهبرم حسین (ع) در آنجاست. جایی بروم که تازه داماد حسین (ع) در آنجاست. 
+مادر عزیز و پدر مهربانم! شما می دانید که امام حسین (ع) و یارانش را چگونه شهید کردند. پس اگر جنازه ام را مثل جنازه حسین (ع) بی سر ، یا مثل جنازه  ابوالفضل العباس (ع) بی دست ، یا مثل جنازه های پاسداران این انقلاب بی تن، به شما تحویل دادند ، نباید هرگز ناراحت شوید چون من بالاتر از آنان نیستم.
+امیدوارم بعد از شهادتم به برادرانم سفارش کنی تا راهم را ادامه دهند.
+به امید پیروزی حق بر باطل
+خدایا خدایا تا انقلاب مهدی (عج) خمینی را نگهدار
+ستارگان که رفتند خورشید را نگهدار
+منظور ما صدور آئین اسلام است           بعد از عراق نوبت فلسطین است
+امدادگر ناصر آزرده
+
+
+   
+   </div>
+   
+   </div>
+   
+  </div>
+
+
+
+</body>
+
+
+</html>

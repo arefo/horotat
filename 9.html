@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>شهدای خیابان فلسطین</title>
+<link href="jquery-mobile/jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.5.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+<!-- This reference to phonegap.js will allow for code hints as long as the current site has been configured as a mobile application. 
+	 To configure the site as a mobile application, go to Site -> Mobile Applications -> Configure Application Framework... -->
+<script src="/phonegap.js" type="text/javascript"></script>
+
+<style type="text/css">
+.pink{
+	
+color:#993366 ;	
+}
+@font-face {
+	font-family: 'koodak';
+	src: url('BKoodak.eot') format('eot'), /* IE6�8 */ 
+		 url('BKoodak.woff') format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/ 
+		 url('BKoodak.ttf') format('truetype');
+	/* Saf3�5, Chrome4+, FF3.5, Opera 10+ */
+}
+  
+    
+    #custom-li .ui-li .ui-btn-text .ui-link-inherit .ui-li-thumb {
+        position:absolute;
+        top:0;
+        bottom:0;
+        margin:auto;
+        right: 0;
+        margin-right: 0 !important;
+    } 
+
+    #custom-li .ui-li .ui-icon {
+        left: 10px !important;    
+    }
+
+    #custom-li .ui-li .ui-btn-text .ui-link-inherit .left {
+        float: right;
+       
+    }
+
+    #custom-li .ui-li .ui-btn-text .ui-link-inherit .left p{
+        text-align: right;
+    }
+        
+    #custom-li .ui-li .ui-btn-text .ui-link-inherit .right {
+        float: right;
+        margin-right: 20px;
+        display:block; 
+        -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+        -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+        -o-transform:matrix(-1, 0, 0, 1, 0, 0);        
+    }
+
+
+    #left-split-icon {
+        left: 0 !important;   
+        border-width: 0 1px 0 0 !important;
+    }
+
+    .ui-li-link-alt { right: auto !important; } // Fix for jQM 1.3
+	
+/*	.ui-page { 
+background: #eee;
+}*/
+
+</style>
+
+
+</head> 
+<body> 
+
+
+<div data-role="page" id="page1">
+
+<div data-role="header"  class="ui-bar-b">
+		<h1 style="direction:rtl;font:14px koodak;font-weight:bold;">بیوگرافی شهید</h1>
+		  <a href="shohada.html" style="margin-left:1px;margin-right:1px;" data-role="button" data-icon="back"  data-theme="b" data-iconshadow="false" data-inline="true" data-iconpos="notext" rel="external" >تنظیمات</a>
+	</div><div data-role="content" class="ui-bar-b">	
+	
+    <div style="width:100%">
+    <div style="margin:5px auto;text-align:center; width:90px;">
+   <img src="aks3dar4/9.JPG" width="90" height="126" />
+   </div>
+   
+   <br /> <div style="margin-top:5px;width:100%;font:11pt koodak;font-weight:100;  margin-right:5px; text-align:right">
+   
+
+نام :محمّد(اکبر)<br />
+نام خانوادگی : جهان پیما<br />
+نام پدر : حسین جان<br />
+محل ولادت : ساری <br />
+تاریخ ولادت : 12/1/1334<br />
+تحصیلات : متوسطه<br />
+محل تحصیل : مدرسه سعادت(ابتدایی)- دبیرستان ولیعهد سابق(دبیرستان)<br />
+شغل : عکاس<br />
+محل شهادت : مهران<br />
+عملیات: کربلای یک<br />
+تاریخ شهادت : 12/4/1365<br />
+محل خاکسپاری : گلزار شهدای شهرستان ساری
+ 
+
+   
+   </div>
+   <hr />
+   <div style="width:99%;text-align:right; margin-right:0.5%;font:11pt koodak;">
+   <h4>وصیت نامه شهید</h4>
+   <br />
+بسم رب الشهدا
+<br />
+وصیتنامه شهید محمد جهان پیما :
+باستايش و حمد بي پايان به درگاه خداوند سبحان و بادرود و سلام به محضرمقدس حضرت امام زمان و نائب برحقش آن يگانه گوهرتابناك ولايت حضرت امام امت فرزندفاطمه زهرا خميني بزرگ و بادرودفراوان به تمامي رزمندگان اسلام خصوصا خانواده معظم شهدا حمد و سپاس خداي بزرگ راكه مارادرعصري ولادت داد كه بزرگ مرجع عالم اسلام را به پيشوائي خود ديدم و فرمان اوراكه همانا اطاعت ازفرمان خداوند و رسول اوست به گوش جان شنيدم. اي خداوند سبحان تو خود شاهدباش كه فقط عشق به زيارت امام حسين بسوي كربلاي حسين پرگشودم هرچند من بنده گناه آلود و شرمنده لياقت زيارت حسين (ع) راندارم كه من كجا و آن نورخدا كجا خداوندا تو خود شاهد باش كه من نه براي مال دنيا و نه براي شهرت در اين دنيا به جبهه هاي جنگ رفتم زيرا ميدانم كه اين دوگروه رافرداي قيامت از صف شهدا جدا می کنند واي برما كه اگر خداي نكرده چنين خيالي درسرداشته باشيم با درود به پدر و مادر و همسر و خواهران  و برادران و تمامي فرزندان و عزيزانم هرچندفرزندي مهربان براي پدرومادر و همسري دلسوز براي همسر و پدري مهربان براي فرزندانم و برادري مهربان براي برادران و خواهرانم نبودم اميدوارم كه به بزرگي خوداين بنده راموردعفو قراردهيد.
+عزيزانم بخداي بزرگ سعادتمندخواهم بوداگرتوفيق شهادت راپيداكنم اي عزيزان من شمارا بخداي بزرگ قسم ميدهم هيچگاه براي من گريه نكنيد براي عزيز زهرا حسين اشك بريزيد زيرا ما هرچه عزت و شرف و بزرگي داريم ازامام حسين است.
+درپايان اين وصيت نامه وصيت ميكنم كه وصي من پدربزرگوارم و همسرم ناظر اينجانب باشد درپايان همه عزيزان رابخداي بزرگ ميسپارم و ضمنا از همسرم ميخواهم كه درتربيت فرزندانم نهايت كوشش رابكارببرد تافرزندانم اقا مهدي رهرو راه شهيدان و خود يكي ازشهيدان و همچنين فاطمه و معصومه هم از رهروان زينب باشند.
+************************************************
+آنچه ما را واداشت تا دست از دیار خود برکشیم و سر بر خاک این شنزارها و ریگزارها بسائیم فقط و فقط حفظ اسلام عزیز و قرآن کریم است.
+
+   
+   </div>
+   
+   </div>
+   
+  </div>
+
+
+
+</body>
+
+
+</html>
